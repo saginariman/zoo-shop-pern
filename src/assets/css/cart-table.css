@@ -1,0 +1,95 @@
+.table-content table th,
+.table-content table td {
+    border-bottom: 1px solid #e5e5e5;
+}
+.table-content table th {
+    border-top: medium none;
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 14px 45px 13px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.table-content table td.product-thumbnail {
+    width: 155px;
+}
+.table-content table td.product-thumbnail a img {
+    padding-left: 20px;
+}
+.table-content table td.product-name {
+    width: 345px;
+}
+.table-content table td {
+    color: #454545;
+    font-size: 15px;
+    padding: 20px 0;
+}
+.product-wishlist-cart {
+    text-align: center;
+}       
+.table-content table td.product-name a {
+    color: #333;
+    font-size: 16px;
+    padding-left: 50px;
+}
+.table-content table td.product-price-cart span {
+    padding-left: 60px;
+}
+.table-content table td.product-quantity {
+    padding-left: 8px;
+}
+.table-content table td.product-subtotal {
+    padding-left: 58px;
+}
+.table-content table td.product-remove {
+    padding-left: 70px;
+}
+.table-content table td.product-remove a {
+    color: #454545;
+    font-size: 18px;
+}
+.product-quantity .cart-plus-minus {
+    height: 40px;
+    padding: 0;
+    position: relative;
+    width: 110px;
+    border: 1px solid #e5e5e5;
+}
+.product-quantity .qtybutton {
+    color: #454545;
+    cursor: pointer;
+    float: inherit;
+    font-size: 16px;
+    margin: 0;
+    position: absolute;
+    transition: all .3s ease 0s;
+}
+.product-quantity .qtybutton:hover,
+.table-content table td.product-name a:hover,
+.table-content table td.product-remove a:hover {
+    color: #7e4c4f;
+}
+.product-quantity .dec.qtybutton {
+    border-right: 1px solid #e5e5e5;
+    height: 40px;
+    left: 0;
+    padding-top: 8px;
+    top: 0;
+}
+.product-quantity .inc.qtybutton {
+    border-left: 1px solid #e5e5e5;
+    height: 40px;
+    right: 0;
+    padding-top: 9px;
+    top: 0;
+}
+.product-quantity input.cart-plus-minus-box {
+    color: #454545;
+    float: left;
+    font-size: 14px;
+    height: 40px;
+    margin: 0;
+    width: 110px;
+}

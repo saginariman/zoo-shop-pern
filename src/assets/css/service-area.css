@@ -1,0 +1,30 @@
+/* service-area */
+.service-content {
+    padding: 30px 28px 25px;
+}
+.service-content > h4 {
+    color: #4f4e4e;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 17px 0 7px;
+    position: relative;
+}
+.service-content > p {
+    color: #4f4e4e;
+    font-size: 15px;
+    margin: 0;
+}
+.service-content:hover img {
+    animation: 500ms ease-in-out 0s normal none 1 running tada;
+}
+.service-color-1 {
+    background-color: #fcedda;
+}
+.service-color-2 {
+    background-color: #f2fbcb;
+}
+.service-color-3 {
+    background-color: #f7d8f9;
+}
+
+

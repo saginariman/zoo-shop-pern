@@ -1,0 +1,45 @@
+
+
+/* about-us area */
+
+.about-us-img>img {
+    width: 100%;
+}
+.about-us-content > h2 {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 64px;
+    margin: 0 0 18px;
+    text-transform: uppercase;
+}
+.about-us-content > p {
+    font-size: 14px;
+    margin: 0;
+}
+.about-us-list>ul {
+    position: relative;
+}
+.about-us-list ul li {
+    display: block;
+    font-size: 14px;
+    list-style: outside none none;
+    margin-bottom: 7px;
+    padding-left: 24px;
+    position: relative;
+}
+.about-us-list ul li:last-child {
+    margin-bottom: 0px;
+}
+.about-us-list {
+    margin: 20px 0 34px;
+}
+.about-us-list ul li::before {
+    color: #454545;
+    content: "";
+    display: inline-block;
+    font-family: "themify";
+    font-size: 17px;
+    left: 0;
+    position: absolute;
+    top: -1px;
+}

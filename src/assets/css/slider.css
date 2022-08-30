@@ -1,0 +1,124 @@
+/* slider */
+/* .slider-area {
+    background-color: tomato;
+    width: 100%;
+    height: 300px;
+} */
+.slider-content h3 {
+    color: #000101;
+    font-family: "Pacifico", cursive;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 61px;
+    margin: 0;
+}
+.slider-content h1 {
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 80px;
+    margin: 18px 0 31px;
+}
+.slider-btn a {
+    background-color: #7e4c4f;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1;
+    padding: 20px 45px;
+}
+.slider-btn a:hover {
+    background-color: #000;
+    color: #fff;
+}
+.slider-single-img {
+    margin-left: 17px;
+}
+
+/* Default Slider Animations */
+.owl-item .slider-content * {
+    -webkit-animation-duration: 1.3s;
+    animation-duration: 1.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.owl-item.active .slider-content * {}
+.owl-item.active .slider-animated-1 h3 {
+    -webkit-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+.owl-item.active .slider-animated-1 h1 {
+    -webkit-animation-delay: 1.0s;
+    animation-delay: 1.0s;
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+.owl-item.active .slider-animated-1 p {
+    -webkit-animation-delay: 1.3s;
+    animation-delay: 1.3s;
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+.owl-item.active .slider-animated-1 a {
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+.owl-item.active .slider-animated-1.slider-single-img img {
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+}
+.owl-item.active .slider-animated-2 h3 {
+    -webkit-animation-delay: 0.7s;
+    animation-delay: 0.7s;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+.owl-item.active .slider-animated-2 h1 {
+    -webkit-animation-delay: 1.0s;
+    animation-delay: 1.0s;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+.owl-item.active .slider-animated-2 a {
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+.slider-active.owl-carousel .owl-nav div {
+    background-color: #fff;
+    border: 1px solid #ececec;
+    border-radius: 50px;
+    color: #333;
+    font-size: 17px;
+    height: 48px;
+    left: 15px;
+    line-height: 49px;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s ease 0s;
+    width: 48px;
+}
+.slider-active.owl-carousel .owl-nav div:hover {
+    background-color: #333;
+    border: 1px solid #333;
+    color: #fff;
+}
+.slider-active.owl-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: 15px;
+}
+.slider-area:hover .slider-active.owl-carousel .owl-nav div {
+    opacity: 1;
+}

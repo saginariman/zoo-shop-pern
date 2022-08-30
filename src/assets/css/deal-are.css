@@ -1,0 +1,60 @@
+/* deal area */
+.deal-img img {
+    width: 100%;
+}
+.deal-img {
+    padding: 0 65px 0 0;
+}
+.deal-content > h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+.deal-pro-price {
+    margin: 10px 0 17px;
+}
+.deal-pro-price > span {
+    color: #7e4c4f;
+    font-size: 20px;
+    font-weight: 500;
+}
+.deal-pro-price > span.deal-old-price {
+    color: #696969;
+    margin-right: 10px;
+    text-decoration: line-through;
+}
+.timer-style {
+    margin: 36px 0 40px;
+}
+.timer-style span {
+    border: 2px solid #ebebeb;
+    border-radius: 3px;
+    color: #242424;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 18px 0 0;
+    padding: 7px 14px 6px;
+    text-align: center;
+}
+.timer-style span:last-child {
+    margin: 0 0px 0 0;
+}
+.timer-style span p {
+    color: #404040;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 9px 0 0;
+    position: relative;
+}
+.timer-style span p::before {
+    background-color: #aaa;
+    border-radius: 100%;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: -5px;
+    transition: all 0.4s ease 0s;
+    width: 100%;
+}

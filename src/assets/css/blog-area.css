@@ -1,0 +1,74 @@
+/* blog-area */
+.blog-meta li {
+    color: #575757;
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0 11px 0 0;
+    position: relative;
+}
+.blog-meta li::before {
+    background-color: #656565;
+    content: "";
+    height: 1px;
+    position: absolute;
+    right: -9px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3px;
+}
+.blog-meta li:last-child::before {
+    display: none;
+}
+.blog-content > h4 {
+    color: #343434;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0;
+}
+.blog-content > h4 a {
+    color: #343434;
+}
+.blog-content > h4 a:hover {
+    color: #7e4c4f;
+}
+.blog-content {
+    padding: 26px 30px;
+}
+.blog-meta {
+    margin: 0 0 10px;
+}
+.blog-img img {
+    width: 100%;
+}
+.hover-effect {
+    overflow: hidden;
+    position: relative;
+}
+.hover-effect > a::before,
+.hover-effect > a::after {
+    background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    z-index: 8;
+    display: block;
+}
+.hover-effect > a::before {
+    left: -100%;
+    top: -100%;
+}
+.hover-effect > a::after {
+    bottom: -100%;
+    right: -100%;
+}
+.blog-wrapper:hover .hover-effect > a::after {
+    bottom: 0;
+    right: 0;
+}
+.blog-wrapper:hover .hover-effect > a::before {
+    left: 0;
+    top: 0;
+}

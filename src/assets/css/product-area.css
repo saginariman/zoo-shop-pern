@@ -1,0 +1,108 @@
+/* product area */
+.section-title > h2 {
+    color: #000101;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 35px;
+    margin: 0;
+}
+.section-title > h4 {
+    color: #000101;
+    font-family: "Pacifico", cursive;
+    font-size: 22px;
+    margin: 0 0 20px;
+}
+.product-wrapper {
+    transition: all .3s ease 0s;
+}
+.product-grid .product-wrapper,
+.product-list .product-wrapper {
+    transition: all .0s ease 0s;
+}
+.product-img {
+    position: relative;
+    overflow: hidden;
+}
+.product-img img {
+    width: 100%;
+    transition: all .7s ease 0s;
+}
+.product-action {
+    background-color: #fff;
+    box-shadow: 0 0.3px 7px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    padding: 13px 0 11px;
+    position: absolute;
+    top: 60%;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-50%) translateX(-50%);
+    transition: all 0.6s ease 0s;
+}
+.product-wrapper:hover .product-action {
+    top: 50%;
+    opacity: 1;
+    visibility: visible;
+}
+.product-action a {
+    color: #666666;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 1;
+    margin: 0 18px;
+    position: relative;
+}
+.product-action a::before {
+    background-color: #666666;
+    content: "";
+    height: 21px;
+    position: absolute;
+    right: -18px;
+    top: 0px;
+    width: 1px;
+}
+.product-action a:last-child::before {
+    display: none;
+}
+.product-action a:hover {
+    color: #7e4c4f;
+}
+.product-wrapper:hover .product-action a {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.product-content > h4 {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 10px;
+    letter-spacing: 0.08px;
+}
+.product-content > h4 a {
+    font-weight: 600;
+}
+.product-content>h4 a:hover {
+    color: #7e4c4f;
+}
+.product-content>span {
+    color: #525252;
+    font-size: 16px;
+}
+.product-content {
+    padding: 17px 10px 16px;
+}
+.product-action-wishlist {
+    bottom: 20px;
+    position: absolute;
+    right: 20px;
+}
+.product-action-wishlist a {
+    font-size: 14px;
+    color: #000000;
+}
+.product-action-wishlist a:hover {
+    color: #7e4c4f;
+}
+

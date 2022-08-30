@@ -1,0 +1,38 @@
+.cart-shiping-update-wrapper {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #fff;
+    border-color: #e5e5e5 #e5e5e5;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    display: flex;
+    justify-content: space-between;
+    padding: 43px 20px 30px;
+}
+.cart-shiping-update>a,
+.cart-shiping-update>button,
+.cart-clear>a {
+    background-color: #d8d8d8;
+    border-radius: 5px;
+    color: #000101;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1;
+    padding: 16px 27px;
+    text-transform: uppercase;
+}
+.cart-shiping-update>button {
+    border: medium none;
+    cursor: pointer;
+    margin-left: 16px;
+    transition: all .3s ease 0s;
+}
+.cart-shiping-update>a:hover,
+.cart-shiping-update>button:hover,
+.cart-clear>a:hover {
+    background-color: #7e4c4f;
+    color: #fff;
+}

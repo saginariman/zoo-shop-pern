@@ -1,0 +1,18 @@
+
+/* count area */
+
+.single-count-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.single-count h2 {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 0 10px;
+}
+.single-count>span {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 600;
+}
